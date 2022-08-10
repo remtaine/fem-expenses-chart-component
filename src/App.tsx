@@ -1,6 +1,5 @@
 import React from "react";
 import Balance from "./components/Balance";
-import Graph from "./components/Graph";
 import Spending from "./components/Spending";
 import Total from "./components/Total";
 
