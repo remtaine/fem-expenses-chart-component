@@ -1,8 +1,7 @@
 import React from "react";
-import PropTypes from "prop-types";
 import Logo from "../images/logo.svg";
 
-function Balance(props) {
+function Balance() {
   return (
     <div className="flex justify-between">
       <div className="text-fem-600">
@@ -13,7 +12,5 @@ function Balance(props) {
     </div>
   );
 }
-
-Balance.propTypes = {};
 
 export default Balance;

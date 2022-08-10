@@ -1,8 +1,7 @@
 import React from "react";
-import PropTypes from "prop-types";
 import GraphBar from "./GraphBar";
 
-function Graph(props) {
+function Graph() {
   // return <div>mon tue wed thu fri sat sun</div>;
   const data = require("../data/data.json");
   let max = -99999999; //max amt in data
@@ -34,7 +33,5 @@ function Graph(props) {
     </div>
   );
 }
-
-Graph.propTypes = {};
 
 export default Graph;
